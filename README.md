@@ -9,7 +9,7 @@ Pequena aplicação REST API com laravel 10 e FRONTEND com Angular consumindo a 
 2. ``` $ npm install ```
 3. ``` $ npm start ```
 
-### Teste o acesso do app em http://localhost:3000/
+### Teste o acesso do app em http://localhost:4200/
 
 
 ### Para iniciar o laravel com o docker:

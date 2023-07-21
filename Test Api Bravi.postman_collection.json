@@ -109,14 +109,14 @@
 							}
 						},
 						"url": {
-							"raw": "localhost/api/person/4",
+							"raw": "localhost/api/person/5",
 							"host": [
 								"localhost"
 							],
 							"path": [
 								"api",
 								"person",
-								"4"
+								"5"
 							]
 						},
 						"description": "put update task by raw text type json"
@@ -305,7 +305,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost/api/tarefas/verifica_colchetes_balanceados?expr=[()]{}{[()()]()}&expr=[(])",
+							"raw": "localhost/api/tarefas/verifica_colchetes_balanceados?expr=[()]{}{[()()]()}",
 							"host": [
 								"localhost"
 							],
@@ -321,7 +321,8 @@
 								},
 								{
 									"key": "expr",
-									"value": "[(])"
+									"value": "[(])",
+									"disabled": true
 								}
 							]
 						}
