@@ -1,8 +1,8 @@
-# Desenvolvimento de Lista de Itens em React + PHP.
-Pequena aplicação REST API com laravel 10 e FRONTEND com React consumindo a api;
+# Desenvolvimento de Avaliação técnica - Angular + PHP.
+Pequena aplicação REST API com laravel 10 e FRONTEND com Angular consumindo a api;
 
 
-### para iniciar o React:
+### para iniciar o Angular:
 
 
 1. na raiz do projeto, ``` $ cd test-app ```
@@ -18,7 +18,7 @@ Pequena aplicação REST API com laravel 10 e FRONTEND com React consumindo a ap
 1. na raiz do projeto, ``` $ cd test-api ```
 2. ``` $ composer update ```
 3. ``` $ docker-compose up -d ```
-4. ``` $ docker-compose exec api_app bash ```
+4. ``` $ docker-compose exec api bash ```
 5. ``` $ php artisan key:generate ```
 6. ``` $ php artisan optimize:clear ```
 
